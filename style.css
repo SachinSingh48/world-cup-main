@@ -68,8 +68,10 @@
     position: relative;
     margin-top: 30px;
     margin-right: 80px;
-
+    top: 4px;
+    
 }
+
 
 /* Middle section */
 .mid-part{
