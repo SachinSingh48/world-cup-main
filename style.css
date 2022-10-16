@@ -366,19 +366,33 @@ hr{
         width: 210px;
         border-radius: 10px;
         border: 1px solid #E8E8E8;
-        background-color: white;
+        padding: 9px 18px;
+    }
+    .white-btn a{
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;       
     }
     .white-btn-2{
         height: 48px;
         width: 160px;
         border-radius: 10px;
         border: 1px solid #E8E8E8;
-        
+        padding-top: 10px;
+    }
+    .white-btn-2 a{
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px; 
+             
     }
     .red-btn{
         height: 48px;
         width: 160px;
         border-radius: 10px;
+        padding: 11px 60px;
         margin: 0;
         
     }
@@ -414,7 +428,7 @@ hr{
         justify-content: center;
         align-items: center;
         margin: 0;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     .footer-info p{
         font-family: 'Poppins';
