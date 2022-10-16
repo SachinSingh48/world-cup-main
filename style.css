@@ -49,7 +49,6 @@
     font-weight: 400;
     line-height: 23px;
     text-align: center;
-
     text-decoration: none;
     background: #DD0000;
     color: white;
@@ -89,7 +88,7 @@
     margin-left:50px ;
     margin-right: 24px;
 }
-.white-btn, .white-btn-2{
+.white-btn, .white-btn-2, .white-btn-1{
     height: 64px;
     width: 252px;
     border-radius: 10px;
@@ -227,4 +226,83 @@ hr{
     text-align: left;
     color: #B9B9B9;
     
+}
+
+
+/* Fixture Styles */
+
+.match{
+    display: flex;
+    justify-content: space-evenly;
+}
+.match p{
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 22px 20px;
+    margin-bottom: 10px;
+    
+}
+.fixture{
+    height: 242px;
+    width: 312px;
+    border-radius: 5px;
+    border: 2px solid  rgb(175, 172, 172);
+    text-align: center;
+    padding: 53px 30px;
+}
+.fixture h2{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+
+}
+.versus{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #161616;
+}
+.fixture >p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color:  #4D4D4D;
+    margin-top: 10px;
+}
+
+.fixture-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px ;
+}
+
+.red-btn-2{
+    background-color: #DD0000;
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.red-btn-2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.white-btn-1{
+    margin-top: 30px;
 }
