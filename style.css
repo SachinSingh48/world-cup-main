@@ -1,0 +1,226 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-section{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    width: 1320px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 50px;
+
+}
+.top-banner{
+    margin-top: 110px;
+    margin-left: 105px;
+}
+.top-banner h1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+}
+
+.top-banner p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-bottom: 40px;
+    
+}
+.btn-1{
+    
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+
+    text-decoration: none;
+    background: #DD0000;
+    color: white;
+    height: 56px;
+    width: 187px;;
+    border-radius: 5px;
+    padding: 16px 25px 16px 25px;
+
+}
+.fa-chevron-right{
+    color: white;
+}
+.top-section img{
+    height: 620px;
+    width: 581px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 80px;
+
+}
+
+/* Middle section */
+.mid-part{
+    display: flex;
+    margin-top: 130px;
+}
+
+.card-button{
+    background-color: #161616;
+    height: 312px;
+    width: 312px;
+    border-radius: 10px; 
+    padding-top: 30px;   
+    padding-left:30px;   
+    margin-left:50px ;
+    margin-right: 24px;
+}
+.white-btn, .white-btn-2{
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 17px;
+}
+.card-button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;  
+}
+.red-btn{
+    background-color: #DD0000;
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 17px;
+}
+.red-btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* Grid items */
+
+.grid-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px ;
+}
+.items{
+    height: 362px;
+    width: 312px;
+    border-radius: 5px;
+    border: 2px solid  rgb(175, 172, 172);
+}
+.grid-img img{
+    width: 308px;
+}
+.grid-btn{
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.grid-btn a{
+    text-decoration: none;
+    border: 1px solid #161616;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding: 4px 16px;
+
+}
+.grid-details h3{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 15PX;
+    margin-left: 20px;
+}
+.grid-icons{
+    display: flex;
+    margin-top: 20px;
+}
+.grid-icons img{
+    padding-left: 20px;
+}
+.icon-info{ 
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #161616B2;
+    padding-left: 5px;
+    
+}
+
+footer{
+    margin-top: 130px;
+    height: 444px;
+    width: 100%;
+    left: 0px;
+    top: 2090px;
+    border-radius: 0px;
+    background: #161616;
+
+}
+.footer-head{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 130px;
+}
+hr{
+    margin-top: 50px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 350px;
+}
+
+.footer-info p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #B9B9B9;
+    
+}
