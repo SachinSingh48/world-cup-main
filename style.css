@@ -6,21 +6,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+body, html{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
 
 .top-section{
     display: flex;
-    justify-content:space-between;
     background-color: black;
-    width: 1320px;
     border-radius: 30px;
     margin-top: 50px;
-    margin-right: 140px;
-    margin-left: 50px;
-
+    min-height: 80vh;
 }
 .top-banner{
-    margin-top: 110px;
-    margin-left: 105px;
+    padding: 15vh 7vw;
+    width: 50%;
 }
 .top-banner h1{
     color: white;
@@ -29,7 +33,6 @@
     font-weight: 700;
     line-height: 80px;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 .top-banner p{
@@ -39,8 +42,7 @@
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    padding-bottom: 40px;
-    margin-bottom: 30px;
+    margin: 7vh auto;
 }
 .btn-1{
     
@@ -61,32 +63,33 @@
 .fa-chevron-right{
     color: white;
 }
-.top-section img{
-    height: 620px;
-    width: 581px;
-    position: relative;
-    margin-top: 30px;
-    margin-right: 80px;
-    top: 4px;
-    
+.top-photo img{
+    margin: auto;
+    padding-top: 10vh;
+    padding-right: 10px;
+    display: block;
+    height: 100%; 
+    width: 170%;
 }
 
 
 /* Middle section */
 .mid-part{
     display: flex;
+    justify-content:center;
     margin-top: 130px;
 }
 
 .card-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #161616;
     height: 312px;
     width: 312px;
-    border-radius: 10px; 
-    padding-top: 30px;   
-    padding-left:30px;   
-    margin-left:50px ;
-    margin-right: 24px;
+    border-radius: 10px;
+    padding: 30px;
 }
 .white-btn, .white-btn-2, .white-btn-1{
     height: 64px;
@@ -110,7 +113,6 @@
     height: 64px;
     width: 252px;
     border-radius: 10px;
-    margin-top: 30px;
     text-align: center;
     padding-top: 17px;
 }
@@ -128,17 +130,16 @@
 .grid-items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px ;
+    gap: 24px;
+    margin-left: 25px;
 }
 .items{
-    height: 362px;
-    width: 312px;
     border-radius: 5px;
     border: 2px solid  rgb(175, 172, 172);
+    margin: auto;
 }
 .grid-img img{
-    width: 308px;
+    width: 100%;
 }
 .grid-btn{
     height: 32px;
@@ -166,12 +167,12 @@
     font-weight: 600;
     line-height: 27px;
     text-align: left;
-    margin-top: 15PX;
-    margin-left: 20px;
+    padding: 15px;
 }
 .grid-icons{
     display: flex;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 .grid-icons img{
     padding-left: 20px;
@@ -189,8 +190,7 @@
 footer{
     margin-top: 130px;
     height: 444px;
-    width: 1600px;
-    left: 0px;
+    width: 100%;
     top: 2090px;
     border-radius: 0px;
     background: #161616;
@@ -207,14 +207,17 @@ footer{
     padding-top: 130px;
 }
 hr{
+    margin: auto;
     margin-top: 50px;
+    width: 80%;
+    
     border: 1px solid #FFFFFF1A;
 }
 
 .footer-info{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 350px;
+    margin-top: 50px;
 }
 
 .footer-info p{
@@ -314,12 +317,18 @@ hr{
     }
     .top-section{
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         justify-content: center;
         align-items: center;
+        min-height: 0;
     }
     .top-banner{
-        margin: 28px 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        padding: 0;
+        padding-top: 15px;
     }
     .top-banner h1{
         font-family: 'Poppins';
@@ -328,7 +337,7 @@ hr{
         line-height: 33px;
         letter-spacing: 0em;
         text-align: center;
-        padding: 0;
+       
     }
     .top-banner p{
         font-family: 'Poppins';
@@ -336,6 +345,7 @@ hr{
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0em;
+        margin: 15px auto;
         text-align: center;
 
     }
@@ -344,9 +354,13 @@ hr{
         width: 90%;
         height: 100%;
         padding-left: 63px;
+        padding-top: 20px;
     }
     .btn-1{
-        margin-left: 10%;
+        
+        display: inline-block;
+        margin: auto;
+        margin-top: 20px;
     }
     .card-button {
         display: flex;
@@ -354,12 +368,10 @@ hr{
         justify-content: center;
         align-items: center;
         background-color: white;
-        height: 176px;
-        width: 210px;
         border-radius: 10px;
         margin: auto;
-        margin-bottom: 20px;
-        padding-left: 0;
+        height: 100%;
+        padding: 0;
     }
     .white-btn{
         height: 48px;
@@ -402,16 +414,18 @@ hr{
     }
     .grid-items{
         grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        gap: 0;
     }
     .items{
-        margin:24px auto;
+        margin:15px auto;
     }
 
     footer{
-        margin-top: 130px;
-        height: 100%;
+        height: 70%;
         width: 100%;
         background: #161616;
+        margin-top: 20px;
     }
     .footer-head{
         font-family: 'Poppins';
@@ -420,6 +434,7 @@ hr{
         line-height: 33px;
         letter-spacing: 0em;
         text-align: center;
+        padding-top: 30px;
 
     }
     .footer-info{
@@ -437,5 +452,6 @@ hr{
         line-height: 50px;
         letter-spacing: 0px;
         text-align: center;
+        margin-top: 20px;
     }
 }
