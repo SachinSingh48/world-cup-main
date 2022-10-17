@@ -26,6 +26,7 @@ main{
     padding: 15vh 7vw;
     width: 50%;
 }
+
 .top-banner h1{
     color: white;
     font-family: 'Poppins';
@@ -63,13 +64,17 @@ main{
 .fa-chevron-right{
     color: white;
 }
+.top-photo{
+    width: 50%;
+}
 .top-photo img{
     margin: auto;
     padding-top: 10vh;
     padding-right: 10px;
     display: block;
     height: 100%; 
-    width: 170%;
+    width: 80%;
+    display: block;
 }
 
 
@@ -98,7 +103,8 @@ main{
     background-color: #FFFFFF;
     /* margin-bottom: 30px; */
     text-align: center;
-    padding-top: 17px;
+    /* padding-top: 17px; */
+    line-height: 64px;
 }
 .card-button a{
     text-decoration: none;
@@ -343,7 +349,9 @@ hr{
         text-align: center;
 
     }
-
+    .top-photo{
+        width: 100%;
+    }
     .top-photo img{
         width: 90%;
         height: 100%;
@@ -357,14 +365,17 @@ hr{
         margin-top: 20px;
     }
     .card-button {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: white;
         border-radius: 10px;
-        margin: auto;
         height: 100%;
+        padding: 0; */
+        background-color: white;
+        margin: auto;
+        Width:210px;
+        Height:176px;
         padding: 0;
     }
     .white-btn{
@@ -372,7 +383,9 @@ hr{
         width: 210px;
         border-radius: 10px;
         border: 1px solid #E8E8E8;
-        padding: 9px 18px;
+        /* padding: 9px 18px; */
+        line-height: 48px;
+        
     }
     .white-btn a{
         font-family: 'Poppins';
@@ -382,10 +395,10 @@ hr{
     }
     .white-btn-2{
         height: 48px;
-        width: 160px;
+        width: 210px;
         border-radius: 10px;
         border: 1px solid #E8E8E8;
-        padding-top: 10px;
+        line-height: 48px;
     }
     .white-btn-2 a{
         font-family: 'Poppins';
@@ -396,10 +409,10 @@ hr{
     }
     .red-btn{
         height: 48px;
-        width: 160px;
+        width: 210px;
         border-radius: 10px;
         padding: 11px 60px;
-        margin: 0;
+        /* margin: 0; */
         
     }
     .mid-part{
