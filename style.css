@@ -234,81 +234,63 @@ hr{
 
 /* Fixture Styles */
 
-.match{
+.fixture{
     display: flex;
     justify-content: space-evenly;
 }
-.match p{
-    font-family:'Poppins';
+.fixture h3{
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    padding: 22px 20px;
-    margin-bottom: 10px;
-    
+    text-align: center;
 }
-.fixture{
-    height: 242px;
-    width: 312px;
+.grid-items{
+    display: flex;
+    justify-content: center;
+}
+.fixture-card{
     border-radius: 5px;
     border: 2px solid  rgb(175, 172, 172);
-    text-align: center;
-    padding: 53px 30px;
+    padding: 20px;
+    margin: 0 auto;
+    height: 242px;
 }
-.fixture h2{
+.fixture h3{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin: 20px;
+
+}
+.fixture-card h2{
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     text-align: center;
-
+    margin: 20px auto;
 }
-.versus{
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #161616;
-}
-.fixture >p{
+.fixture-card p{
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    letter-spacing: 0em;
     text-align: center;
-    color:  #4D4D4D;
-    margin-top: 10px;
+    color: #4D4D4D;
 }
-
-.fixture-details{
+.country-1 img, .country-2 img{
+    height: 90%;
+    width: 100%;
+}
+.grid-items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px ;
 }
 
-.red-btn-2{
-    background-color: #DD0000;
-    height: 64px;
-    width: 252px;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 17px;
-}
-
-.red-btn-2 a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-}
-.white-btn-1{
-    margin-top: 30px;
-}
 
 /* For mobile */
 @media only screen and (max-width:688px){
