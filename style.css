@@ -83,7 +83,7 @@ main{
 .card-button{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #161616;
     height: 312px;
@@ -96,7 +96,7 @@ main{
     width: 252px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: center;
     padding-top: 17px;
 }
@@ -108,7 +108,7 @@ main{
     font-weight: 500;
     line-height: 30px;  
 }
-.red-btn{
+.red-btn, .red-btn-2{
     background-color: #DD0000;
     height: 64px;
     width: 252px;
@@ -124,6 +124,7 @@ main{
     font-weight: 500;
     line-height: 30px;
 }
+
 
 /* Grid items */
 
@@ -249,9 +250,20 @@ hr{
     display: flex;
     justify-content: center;
 }
+
+
+.card-button-2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;  
+}
+
 .fixture-card{
     border-radius: 5px;
-    border: 2px solid  rgb(175, 172, 172);
+    /* border: 2px solid  rgb(175, 172, 172); */
     padding: 20px;
     margin: 0 auto;
     height: 242px;
